@@ -43,6 +43,21 @@
       width: 150px;
     }
   }
+
+  .about-info {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      'bioimage'
+      'bio';
+  }
+
+  .job-info {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      'job1'
+      'job2'
+      'job3';
+  }
 }
 
 @include mediaSm {
